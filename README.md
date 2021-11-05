@@ -56,7 +56,8 @@ Then start the dev server
 npm run dev
 ``` 
 
-A live server will be opened on localhost:8080, you can start hack. Happy code!
+A live server will be opened on localhost:8080, you can start hack.  
+The sources are on the "scss" folder. Happy code!
 
 # Building
 
