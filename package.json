@@ -1,0 +1,29 @@
+{
+  "name": "ui-remotar",
+  "version": "1.0.0",
+  "description": "Pure CSS Remotar UI KIT",
+  "main": "lib",
+  "scripts": {
+    "build": "gulp",
+    "dev": "gulp --watch"
+  },
+  "keywords": [
+    "remotar",
+    "ui",
+    "kit"
+  ],
+  "author": "Remotar Development Team",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-connect": "^5.7.0",
+    "gulp-plumber": "^1.2.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-size": "^4.0.1",
+    "rimraf": "^3.0.2",
+    "sass": "^1.43.4"
+  }
+}

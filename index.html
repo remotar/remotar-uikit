@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/all.css" rel="stylesheet">
+  <title>Remotar UI-Kit</title>
+
+  <style>
+    .flex-list,
+    .elevation-list,
+    .color-list {
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+    }
+    .flex-list > div,
+    .elevation-list > div,
+    .color-list > div {
+      width: 250px;
+      height: 250px;
+      color: #fff;
+      margin: 8px;
+      padding: 10px;
+      border-radius: 8px;
+    }
+    .color-list > div p {
+      color: #fff;
+    }
+    .elevation-list > div p,
+    .color-list > div.color-dark p {
+      color: var(--color-text-2);
+    }
+    .half{
+      display:grid;
+      grid-column-gap:26px;
+      grid-template-columns:1fr 1fr;
+    }
+  </style>
+</head>
+<body>
+  <section class="container presentation">
+    <h1>Remotar UI-Kit</h1>
+    <hr>
+
+    <p>
+      https://fonts.google.com/icons
+      Do id eu nostrud cillum veniam in laborum laboris ipsum irure elit eu. Ipsum excepteur pariatur in excepteur ea. 
+      Duis nisi cillum pariatur quis incididunt dolor deserunt tempor aliquip id reprehenderit. Enim veniam sunt fugiat id.
+      Do id eu nostrud cillum veniam in laborum laboris ipsum irure elit eu. Ipsum excepteur pariatur in excepteur ea. 
+      Duis nisi cillum pariatur quis incididunt dolor deserunt tempor aliquip id reprehenderit. Enim veniam sunt fugiat id.
+      Do id eu nostrud cillum veniam in laborum laboris ipsum irure elit eu. Ipsum excepteur pariatur in excepteur ea. 
+      Duis nisi cillum pariatur quis incididunt dolor deserunt tempor aliquip id reprehenderit. Enim veniam sunt fugiat id.
+      Do id eu nostrud cillum veniam in laborum laboris ipsum irure elit eu. Ipsum excepteur pariatur in excepteur ea. 
+      Duis nisi cillum pariatur quis incididunt dolor deserunt tempor aliquip id reprehenderit. Enim veniam sunt fugiat id.
+    </p>
+  </section>
+
+  <section class="container typography">
+    <h1>Typography</h1>
+    <hr>
+
+    <p>
+      For each Headline you can also have a style class, in case you want a heading without semantic weight,
+      you can use the classes <mark>text-h[1,2,3,4,5,6]</mark>.
+    </p>
+
+    <h1>Headline level 1</h1>
+    <h2>Headline level 2</h2>
+    <h3>Headline level 3</h3>
+    <h4>Headline level 4</h4>
+    <h5>Headline level 5</h5>
+    <h6>Headline level 6</h6>
+
+    <hr/>
+
+    <p class="text-large">✎ PARAGRAPH</p>    
+    <p>
+      This is a simple paragraph, applied by using the tag <mark>p</mark> or the class <mark>text-p</mark>
+    </p>
+
+    <p class="text-large">✎ SEMIBOLD</p>
+    <p class="text-semibold">
+      This is a semibold paragraph, that can be applied by using the class <mark>text-semibold</mark>
+    </p>
+
+    <p class="text-large">✎ SMALL TEXT</p>
+    <p class="text-small">
+      This is a small text example. You can define a small text with the classs <mark>text-small</mark>. And this is a <span class="text-semibold">semibold small text example</span>
+    </p>
+
+    <p class="text-large">✎ LARGE TEXT</p>
+    <p class="text-large">
+      This is a large text example. You can define a large text with the classs <mark>text-large</mark>. And this is a <span class="text-semibold">semibold large text example</span>
+    </p>
+    
+    <p class="text-large">✎ LINKS</p>
+    <p>
+      <a href="/">This is a Link example</a>. You can also use the <mark>.text-link</mark> class to use only its style, <span class="text-link">for example.</span>
+    </p>
+
+    <p class="text-large">✎ CAPTION</p>
+    <p class="text-caption">
+      This is a caption text example. A caption is a small text with small line-height. It can be applied using the class <mark>text-caption</mark>
+    </p>
+
+    <p class="text-large">✎ CAPTION</p>
+    <p class="text-quotation">
+      This is a quotation. You can apply this style by using the class <mark>text-quotation</mark>. Note that this is differente from the <mark>blockquote</mark> element.
+    </p>
+
+    <p class="text-large">✎ BUTTON TEXT</p>
+    <p class="text-button">
+      Button Like Text. Applied by the class <mark>text-button</mark>
+    </p>
+
+    <p class="text-large">✎ INPUT LABEL</p>
+    <label>
+      Use tag <mark>label</mark> or the class <mark>text-label</mark>
+    </label>
+
+    <p class="text-large">✎ BLOCKQUOTE</p>
+
+    <blockquote>
+      This is a blockquote:<br/><br/>
+      Anim id fugiat ullamco ullamco excepteur adipisicing nisi incididunt esse sunt ipsum sint ipsum in. 
+      Mollit enim excepteur proident deserunt laborum sint aliquip occaecat commodo. Labore nulla reprehenderit.
+      eu anim minim adipisicing dolor. Ad aliqua amet enim amet. Duis esse magna sit non cillum labore duis ea.
+    </blockquote>
+  </section>
+
+  <section class="container colors">
+    <h1>Colors</h1>
+    <hr/>
+
+    <div class="color-list">
+      <div class="bg-brand-1">
+        <p>--brand-1</p>
+        <p>.color-brand-1</p>
+        <p>.bg-brand-1</p>
+      </div>
+      <div class="bg-brand-2">
+        <p>--brand-2</p>
+        <p>.color-brand-2</p>
+        <p>.bg-brand-2</p>
+      </div>
+      <div class="bg-brand-3">
+        <p>--brand-3</p>
+        <p>.color-brand-3</p>
+        <p>.bg-brand-3</p>
+      </div>
+      <div class="bg-hover-brand">
+        <p>--hover-brand</p>
+        <p>.color-hover-brand</p>
+        <p>.bg-hover-brand</p>
+      </div>
+      <div class="bg-hover-light color-dark">
+        <p>--hover-light</p>
+        <p>.color-hover-light</p>
+        <p>.bg-hover-light</p>
+      </div>
+      <div class="bg-link">
+        <p>--color-link</p>
+        <p>.color-link</p>
+        <p>.bg-link</p>
+      </div>
+      <div class="bg-text-1">
+        <p>--text-1</p>
+        <p>.color-text-1</p>
+        <p>.bg-text-1</p>
+      </div>
+      <div class="bg-text-2">
+        <p>--text-2</p>
+        <p>.color-text-2</p>
+        <p>.bg-text-2</p>
+      </div>
+      <div class="bg-text-3">
+        <p>--text-3</p>
+        <p>.color-text-3</p>
+        <p>.bg-text-3</p>
+      </div>
+      <div class="bg-text-inverse color-dark">
+        <p>--text-inverse</p>
+        <p>.color-text-inverse</p>
+        <p>.bg-text-inverse</p>
+      </div>
+      <div class="bg-surface-1 color-dark">
+        <p>--surface-1</p>
+        <p>.color-surface-1</p>
+        <p>.bg-surface-1</p>
+      </div>
+      <div class="bg-surface-2 color-dark">
+        <p>--surface-2</p>
+        <p>.color-surface-2</p>
+        <p>.bg-surface-2</p>
+      </div>
+      <div class="bg-surface-3 color-dark">
+        <p>--surface-3</p>
+        <p>.color-surface-3</p>
+        <p>.bg-surface-3</p>
+      </div>
+      <div class="bg-surface-4 color-dark">
+        <p>--surface-4</p>
+        <p>.color-surface-4</p>
+        <p>.bg-surface-4</p>
+      </div>
+      <div class="bg-surface-5 color-dark">
+        <p>--surface-5</p>
+        <p>.color-surface-5</p>
+        <p>.bg-surface-5</p>
+      </div>
+      <div class="bg-surface-6">
+        <p>--surface-6</p>
+        <p>.color-surface-6</p>
+        <p>.bg-surface-6</p>
+      </div>
+      <div class="bg-surface-7">
+        <p>--surface-7</p>
+        <p>.color-surface-7</p>
+        <p>.bg-surface-7</p>
+      </div>
+      <div class="bg-support-info">
+        <p>--support-info</p>
+        <p>.color-support-info</p>
+        <p>.bg-support-info</p>
+      </div>
+      <div class="bg-support-success">
+        <p>--support-success</p>
+        <p>.color-support-success</p>
+        <p>.bg-support-success</p>
+      </div>
+      <div class="bg-support-warning">
+        <p>--support-warning</p>
+        <p>.color-support-warning</p>
+        <p>.bg-support-warning</p>
+      </div>
+      <div class="bg-support-error">
+        <p>--support-error</p>
+        <p>.color-support-error</p>
+        <p>.bg-support-error</p>
+      </div>
+      <div class="bg-gray-100 color-dark">
+        <p>--gray-100</p>
+        <p>.color-gray-100</p>
+        <p>.bg-gray-100</p>
+      </div>
+      <div class="bg-gray-200 color-dark">
+        <p>--gray-200</p>
+        <p>.color-gray-200</p>
+        <p>.bg-gray-200</p>
+      </div>
+      <div class="bg-gray-300 color-dark">
+        <p>--gray-300</p>
+        <p>.color-gray-300</p>
+        <p>.bg-gray-300</p>
+      </div>
+      <div class="bg-gray-400">
+        <p>--gray-400</p>
+        <p>.color-gray-400</p>
+        <p>.bg-gray-400</p>
+      </div>
+      <div class="bg-gray-500">
+        <p>--gray-500</p>
+        <p>.color-gray-500</p>
+        <p>.bg-gray-500</p>
+      </div>
+      <div class="bg-gray-600">
+        <p>--gray-600</p>
+        <p>.color-gray-600</p>
+        <p>.bg-gray-600</p>
+      </div>
+      <div class="bg-gray-700">
+        <p>--gray-700</p>
+        <p>.color-gray-700</p>
+        <p>.bg-gray-700</p>
+      </div>
+      <div class="bg-gray-800">
+        <p>--gray-800</p>
+        <p>.color-gray-800</p>
+        <p>.bg-gray-800</p>
+      </div>
+      <div class="bg-gray-900">
+        <p>--gray-900</p>
+        <p>.color-gray-900</p>
+        <p>.bg-gray-900</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container elevation">
+    <h1>Elevation</h1>
+    <hr/>
+
+    <div class="elevation-list">
+      <div class="elevation-1">
+        <p>--elevation-1</p>
+        <p>.elevation-1</p>
+      </div>
+      <div class="elevation-2">
+        <p>--elevation-2</p>
+        <p>.elevation-2</p>
+      </div>
+      <div class="elevation-3">
+        <p>--elevation-3</p>
+        <p>.elevation-3</p>
+      </div>
+      <div class="elevation-4">
+        <p>--elevation-4</p>
+        <p>.elevation-4</p>
+      </div>
+      <div class="elevation-5">
+        <p>--elevation-5</p>
+        <p>.elevation-5</p>
+      </div>
+      <div class="elevation-6">
+        <p>--elevation-6</p>
+        <p>.elevation-6</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="container buttons">
+    <h1>Buttons</h1>
+    <hr/>
+
+    <div class="flex-list">
+      <div>
+        <h4>Bare Metal</h4>
+        <button>
+          <span class="material-icons">add</span>
+          <span>Bare Metal</span>
+        </button>
+      </div>
+  
+      <div>
+        <h4>Button Primary</h4>
+        <button class="button-primary">
+          <span class="material-icons">add</span>
+          <span>Button Primary</span>
+        </button>
+      </div> 
+      
+      <div>
+        <h4>Button Secondary</h4>
+        <button class="button-secondary">
+          <span class="material-icons">add</span>
+          <span>Button Secondary</span>
+        </button>
+      </div>  
+      
+      <div>
+        <h4>Button Seamless</h4>
+        <button class="button-seamless">
+          <span class="material-icons">add</span>
+          <span>Button Seamless</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="flex-list">
+      <div>
+        <h4>Circle</h4>
+        <button class="button-circle">
+          <span class="material-icons">add</span>
+        </button>
+      </div> 
+
+      <div>
+        <h4>Circle Primary</h4>
+        <button class="button-circle-primary">
+          <span class="material-icons">add</span>
+        </button>
+      </div> 
+      
+      <div>
+        <h4>Circle Secondary</h4>
+        <button class="button-circle-secondary">
+          <span class="material-icons">add</span>
+        </button>
+      </div>
+      
+      <div>
+        <h4>Circle Seamless</h4>
+        <button class="button-circle-seamless">
+          <span class="material-icons">add</span>
+        </button>
+      </div>      
+    </div>
+
+    <div class="flex-list">
+      <div>
+        <h4>Support</h4>
+        <button class="button-support">
+          <span class="material-icons">add</span>
+          <span>Button Support</span>
+        </button>
+      </div>
+      
+      <div>
+        <h4>Disabled</h4>
+        <button class="button-primary" disabled>
+          <span class="material-icons">add</span>
+          <span>Disabled</span>
+        </button>
+      </div>       
+    </div>
+  </section>
+
+  <section class="container form">
+    <h1>Form</h1>
+    <hr/>
+
+    <form action="/">
+      <div class="half">
+        <fieldset>
+          <legend class="required">Fieldset</legend>
+        </fieldset>
+  
+        <div class="field">
+          <label for="required" class="required">Label .required</label>
+          <input type="text" placeholder="Input placeholder" name="required" required>
+        </div>
+        
+        <div class="field">
+          <label for="input-text">Text</label>
+          <input type="text" placeholder="Input placeholder" name="input-text">
+        </div>
+  
+        <div class="field">
+          <label for="input-number">Number</label>
+          <input type="number" placeholder="Input placeholder" name="input-number">
+        </div>
+  
+        <div class="field">
+          <label for="input-color">Color</label>
+          <input type="color" placeholder="Input placeholder" name="input-color">
+        </div>
+  
+        <div class="field">
+          <label for="input-date">Date</label>
+          <input type="date" placeholder="Input placeholder" name="input-date">
+        </div>
+  
+        <div class="field">
+          <label for="input-datetime-local">Datetime-local</label>
+          <input type="datetime-local" placeholder="Input placeholder" name="input-datetime-local">
+        </div>
+  
+        <div class="field">
+          <label for="input-email">Email</label>
+          <input type="email" placeholder="Input placeholder" name="input-email">
+        </div>
+  
+        <div class="field">
+          <label for="input-month">Month</label>
+          <input type="month" placeholder="Input placeholder" name="input-month">
+        </div>
+  
+        <div class="field">
+          <label for="input-password">Password</label>
+          <input type="password" placeholder="Input placeholder" name="input-password">
+        </div>
+  
+        <div class="field">
+          <label for="input-search">Search</label>
+          <input type="search" placeholder="Input placeholder" name="input-search">
+        </div>
+        
+        <div class="field">
+          <label for="input-tel">Tel</label>
+          <input type="tel" placeholder="Input placeholder" name="input-tel">
+        </div>
+  
+        <div class="field">
+          <label for="input-time">Time</label>
+          <input type="time" placeholder="Input placeholder" name="input-time">
+        </div>  
+  
+        <div class="field">
+          <label for="input-url">Url</label>
+          <input type="url" placeholder="Input placeholder" name="input-url">
+        </div>
+  
+        <div class="field">
+          <label for="input-week">Week</label>
+          <input type="week" placeholder="Input placeholder" name="input-week">
+        </div>
+        
+        <div class="field">
+          <label for="select-test">Select</label>
+          <select name="select-test" id="a-select">
+            <option value="test-a">Test A</option>
+            <option value="test-b">Test B</option>
+            <option value="test-c">Test C</option>
+            <option value="test-d">Test D</option>
+            <option value="test-e">Test E</option>
+          </select>
+        </div>
+      </div>
+      
+      <div class="field">
+        <label for="input-textarea">Textarea</label>
+        <textarea name="textarea" placeholder="Textarea placeholder"></textarea>
+      </div>
+    </form>
+  </section>
+
+  <section class="container form">
+    <h1>Input Helpers</h1>
+    <hr/>
+
+    <form action="">
+      <div class="half">
+        <div class="field" data-icon-right="add">
+          <label for="required" class="required">Label .required</label>
+          <input type="text" placeholder="Input placeholder" name="required" required>
+          <label>Assistive text: just place a label after the input</label>
+        </div>
+
+        <div class="field">
+          <label for="select-test" class="required">Select</label>
+          <select name="select-test" id="a-select">
+            <option value="test-a">Test A</option>
+            <option value="test-b">Test B</option>
+            <option value="test-c">Test C</option>
+            <option value="test-d">Test D</option>
+            <option value="test-e">Test E</option>
+          </select>
+          <label>Assistive text: just place a label after the input</label>
+        </div>
+
+        <div class="field" data-icon-left="add">
+          <label for="required" class="required">Label .required</label>
+          <input type="text" placeholder="Input placeholder" name="required" required>
+          <label>Assistive text: just place a label after the input</label>
+        </div>
+      </div>
+    </form>
+  </section>
+
+  <section class="container switches">
+    <h1>Switches</h1>
+    <hr/>
+
+    <form action="/">
+      <div class="half">
+        <div class="field switch">
+          <label>
+            <input type="radio" name="input-radio-test" checked>
+            Input Radio A
+          </label>
+          <label>
+            <input type="radio" name="input-radio-test">
+            Input Radio B
+          </label>
+        </div>
+  
+        <div class="field switch">
+          <label>
+            <input type="checkbox" name="input-checkbox-test-a" checked>
+            Input Checkbox A
+          </label>
+          <label>
+            <input type="checkbox" name="input-checkbox-test-b">
+            Input Checkbox B
+          </label>            
+        </div> 
+  
+        <div class="field switch">
+          <label>
+            <input type="checkbox" name="input-toggle" data-toggler>
+            Input Toggle
+          </label>
+        </div>
+      </div>
+    </form>    
+  </section>
+
+  <section class="container other-inputs">
+    <h1>Other Inputs</h1>
+    <hr/>
+
+    <form action="/">
+      <div class="field">      
+        <button class="button-secondary">
+          Upload File
+          <input type="file" name="input-file">
+        </button>
+
+        <input type="button" class="button-primary" name="input-button" value="Input Button">
+        <input type="submit" class="button-primary" name="input-button" value="Submit">
+        <input type="reset" name="input-button" value="Reset">
+      </div>
+    </form>    
+  </section>
+
+  <section class="container table">
+    <h1>Table</h1>
+    <hr/>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Company</th>
+          <th>Contact</th>
+          <th>Country</th>
+        </tr>
+      </thead>   
+      <tbody>
+        <tr>
+          <td>Alfreds Futterkiste</td>
+          <td>Maria Anders</td>
+          <td>Germany</td>
+        </tr>
+        <tr>
+          <td>Centro comercial Moctezuma</td>
+          <td>Francisco Chang</td>
+          <td>Mexico</td>
+        </tr>
+        <tr>
+          <td>Ernst Handel</td>
+          <td>Roland Mendel</td>
+          <td>Austria</td>
+        </tr>
+        <tr>
+          <td>Island Trading</td>
+          <td>Helen Bennett</td>
+          <td>UK</td>
+        </tr>
+      </tbody>     
+    </table>       
+  </section>
+
+  <section class="container lists">
+    <h1>Lists</h1>
+
+    <hr/>
+    <p class="bold">Unordered</p>
+    
+    <ul>
+      <li>
+        Irure elit sit reprehenderit do aliquip tempor ad nostrud enim enim culpa velit proident consequat. 
+        Lorem amet do sit magna est amet. Magna magna Lorem cupidatat nulla occaecat. Aute sunt esse elit 
+        fugiat velit voluptate. Anim amet duis dolor incididunt. Irure elit sit reprehenderit do aliquip 
+        tempor ad nostrud enim enim culpa velit proident consequat. Lorem amet do sit magna est amet. Magna 
+        magna Lorem cupidatat nulla occaecat. Aute sunt esse elit fugiat velit voluptate. Anim amet duis 
+        dolor incididunt.
+      </li>
+      
+      <li>List Example A</li>
+      <li>List Example B</li>
+      <li>List Example C</li>
+      <li>List Example D</li>
+      <li>List Example E</li>
+    </ul>
+    
+    <hr/>
+    <p class="bold">Ordered</p>
+
+    <ol>
+      <li>
+        Irure elit sit reprehenderit do aliquip tempor ad nostrud enim enim culpa velit proident consequat. 
+        Lorem amet do sit magna est amet. Magna magna Lorem cupidatat nulla occaecat. Aute sunt esse elit 
+        fugiat velit voluptate. Anim amet duis dolor incididunt. Irure elit sit reprehenderit do aliquip 
+        tempor ad nostrud enim enim culpa velit proident consequat. Lorem amet do sit magna est amet. Magna 
+        magna Lorem cupidatat nulla occaecat. Aute sunt esse elit fugiat velit voluptate. Anim amet duis 
+        dolor incididunt.
+      </li>
+      
+      <li>List Example B</li>
+      <li>List Example C</li>
+      <li>List Example D</li>
+      <li>List Example E</li>
+    </ol> 
+    
+    <hr/>
+    <p class="bold">Definition List</p>
+
+    <dl>
+      <dt>Male writers:</dt>
+        <dd>Ernest Hemingway</dd>
+        <dd>Carlos Drummond</dd>
+      <dt>Female writers:</dt>
+        <dd>Virgínia Woolf</dd>
+        <dd>Hilda Hilst</dd>
+    </dl>  
+  </section>
+</body>
+</html>

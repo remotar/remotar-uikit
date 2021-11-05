@@ -1,0 +1,56 @@
+/**
+ * All the colors declared on this files will become a
+ * .color-* class, .bg-* class and a css variable
+ * prefixed by the term "color". For the brand-1 for ex
+ * you will have .color-brand-1, .bg-brand-1, --color-brand-1
+ */ 
+
+$colors: (
+  "brand-1": #E40189,
+  "brand-2": #940FF0,
+  "brand-3": #FEA000,
+
+  "hover-brand": #EE3C95,
+  "hover-light": #EEEEF1,
+  "link": #0066CC,
+
+  "text-1": #1E014C,
+  "text-2": #5E4C7B,
+  "text-3": #A99AC1,
+  "text-inverse": #FFFFFF,
+
+  "surface-1": #FFFFFF,
+  "surface-2": #FAFAFA,
+  "surface-3": #F8F1FF,
+  "surface-4": #FDCBD5,
+  "surface-5": #EDE6F2,
+  "surface-6": #13123F,
+  "surface-7": #BFBFBF,
+
+  "support-info": #0066CC,
+  "support-success": #2E7B32,
+  "support-warning": #E0B700,
+  "support-error": #D32F2F,
+
+  "gray-100": #F5F5F5,
+  "gray-200": #EEEEEE,
+  "gray-300": #E0E0E0,
+  "gray-400": #BDBDBD,
+  "gray-500": #9E9E9E,
+  "gray-600": #757575,
+  "gray-700": #616161,
+  "gray-800": #424242,
+  "gray-900": #212121,
+);
+
+:root {
+	@each $color, $value in $colors {
+		--color-#{$color}: #{$value};
+		.color-#{$color} {
+			color: var(--color-#{$color}) !important;
+		}
+		.bg-#{$color} {
+			background-color: var(--color-#{$color}) !important;
+		}    
+	}
+}
