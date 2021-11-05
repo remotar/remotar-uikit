@@ -38,6 +38,16 @@ import "ui-kit/css/elements/buttons.css";
 // import all the modules you need from elements
 ```
 
+# Modules
+
+The UI-KIT is pretty small in size, but if you prefer a modular approach, add the core as explained before, and then the modules you want. Those are the modules you can import from the `elements` folder:
+
+- buttons
+- form
+- lists
+- tables
+- typography
+
 # Elements Doc
 
 To see the elements index, open the `index.html` page on the repository root, or start the development server.
