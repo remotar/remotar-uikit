@@ -2,7 +2,12 @@
   "name": "ui-remotar",
   "version": "1.0.0",
   "description": "Pure CSS Remotar UI KIT",
-  "main": "lib",
+  "homepage": "https://remotar.github.io/ui-kit/",
+  "main": "./css/all.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/remotar/remotar-uikit"
+  },
   "scripts": {
     "build": "gulp",
     "dev": "gulp --watch"
@@ -10,7 +15,11 @@
   "keywords": [
     "remotar",
     "ui",
-    "kit"
+    "kit",
+    "css",
+    "scss",
+    "style",
+    "design"
   ],
   "author": "Remotar Development Team",
   "license": "ISC",
