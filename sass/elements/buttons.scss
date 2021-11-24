@@ -86,6 +86,12 @@ button, .button,
   }
 }
 
+.button-white {
+  color: #fff;
+  border-color: #fff;
+  background-color: transparent;
+}
+
 button, [class*="button"] {
   &.button-disabled, &[disabled] {
     opacity: .4;
