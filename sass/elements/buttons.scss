@@ -44,6 +44,13 @@ button, .button,
     cursor: pointer;
     max-width: 100%;
   }
+  > span {
+    display: flex;
+    align-items: center;
+    &:not(:last-child) {
+      margin-right: 12px;
+    }    
+  }
 }
 
 [class*="button-circle"] {
