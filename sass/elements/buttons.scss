@@ -18,7 +18,7 @@ button, .button,
   &:active {
     transform: translateY(+2px);
   }
-  .material-icons, i {
+  .button-icon {
     &:first-child {
       margin-right: 6px;
     }
@@ -26,9 +26,9 @@ button, .button,
       margin-left: 6px;
     }
   }
-  &:hover {
-    opacity: .8;
+  &:hover, &:active {
     transition: 200ms;
+    filter: contrast(0.8);
   }
   input[type=file] {
     position: absolute;
@@ -81,7 +81,7 @@ button, .button,
 
 .button-support {
   background-color: var(--color-surface-3);
-  .material-icons, i {
+  .button-icon {
     color: var(--color-brand-1);
   }
 }
