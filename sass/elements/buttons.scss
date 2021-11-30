@@ -56,6 +56,10 @@ button, .button,
 [class*="button-circle"] {
   width: 40px;
   height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
   border-radius: 100%;
 }
 
@@ -77,6 +81,11 @@ button, .button,
   border: none;
   background: none;
   color: var(--color-brand-1);
+}
+
+.button-circle-action {
+  border-color: var(--color-surface-5);
+  background-color: var(--color-surface-5);
 }
 
 .button-support {
