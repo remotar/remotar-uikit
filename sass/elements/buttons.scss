@@ -3,6 +3,7 @@ button, .button,
 [type=submit],
 [type=reset] {
   border: none;
+  min-height: 48px;
   position: relative;
   display: inline-flex;
   align-items: center;
@@ -54,6 +55,7 @@ button, .button,
 }
 
 [class*="button-circle"] {
+  min-height: unset;
   width: 40px;
   height: 40px;
   display: flex;
