@@ -69,6 +69,7 @@ p, .text-p {
 }
 
 a, .text-link {
+  cursor: pointer;
   color: var(--color-link);
   text-decoration: underline;
   font-weight: 600;
