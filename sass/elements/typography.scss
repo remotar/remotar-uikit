@@ -155,3 +155,28 @@ kbd {
   font-weight: 600;
 }
 
+.is-hr {
+  width: 100%;
+  font-size: 16px;
+  line-height: 150%;
+  position: relative;
+  text-align: center;
+  background-color: #fff;
+  color: var(--color-text-1);
+  &:before,
+  &:after {
+    content: '';
+    top: 50%;
+    width: calc(50% - 30px);
+    position: absolute;
+    transform: translateY(-50%);
+    border-bottom: solid 1px var(--color-surface-5);
+  }
+  &:after {
+    right: 0;
+  }
+  &:before {
+    left: 0;
+  }
+}
+
