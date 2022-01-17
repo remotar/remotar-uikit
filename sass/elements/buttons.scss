@@ -52,6 +52,19 @@ button, .button,
       margin-right: 8px;
     }    
   }
+  &.btn-w-100 {
+    min-width: 100px;
+  }
+  &.btn-w-200 {
+    min-width: 200px;
+  }
+  &.btn-w-300 {
+    min-width: 300px;
+  }
+  &.btn-blocked {
+    width: 100%;
+    display: flex;
+  }
 }
 
 [class*="button-circle"] {
