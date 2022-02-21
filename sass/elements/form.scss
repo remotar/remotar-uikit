@@ -259,7 +259,7 @@ textarea {
   }
 }
 
-.disabled, [disabled] {
+.disabled, [disabled], [data-disabled] {
   opacity: .4;
   cursor: default;
   pointer-events: none;
