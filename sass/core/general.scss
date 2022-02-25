@@ -28,6 +28,10 @@ html, body {
   }
 }
 
+[data-hidden], .hidden {
+  display: none;
+}
+
 .padded {
   padding: 16px;
 }
