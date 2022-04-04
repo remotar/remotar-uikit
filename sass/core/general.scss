@@ -4,6 +4,11 @@ html, body {
 	font-family: var(--font-family-1);
 }
 
+::selection {
+  background: var(--color-brand-1);
+  color: #fff;
+}
+
 /** Basic Helper Classes */
 
 .font-family-1 {
