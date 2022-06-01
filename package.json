@@ -1,6 +1,6 @@
 {
   "name": "@remotarjobs/remotar-uikit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Pure CSS Remotar UI KIT",
   "homepage": "https://remotar.github.io/ui-kit/",
   "main": "./css/all.css",
