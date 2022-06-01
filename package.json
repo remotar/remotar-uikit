@@ -1,6 +1,6 @@
 {
   "name": "@remotarjobs/remotar-uikit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Pure CSS Remotar UI KIT",
   "homepage": "https://remotar.github.io/ui-kit/",
   "main": "./css/all.css",
@@ -8,6 +8,11 @@
     "type": "git",
     "url": "https://github.com/remotar/remotar-uikit"
   },
+  "files": [
+    "css/",
+    "font",
+    "README.md"
+  ],
   "scripts": {
     "build": "gulp",
     "dev": "gulp --watch",
