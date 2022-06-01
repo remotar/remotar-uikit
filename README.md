@@ -7,21 +7,21 @@ This is the Remotar UI Kit. It contains all the atomic style and HTML bare compo
 Add the remotar UI Kit to yoru project by adding the core CSS only, or the complete UI Kit. If you are using ES6 modules, just import it to your project:
 
 ```bash
-npm install remotar-uikit
+npm install @remotarjobs/remotar-uikit
 ```
 
 Then on your global app module
 
 ```js
-import 'remotar-uikit'
+import '@remotarjobs/remotar-uikit'
 ```
 
 
 Or if you prefer a modular approach, import only the core from the css root, then the modules you want from the `elements` folder. Lets say you want to add only buttons, for exemple:
 
 ```js
-import 'remotar-uikit/css/core.css
-import 'remotar-uikit/css/elements/buttons.css
+import '@remotarjobs/remotar-uikit/css/core.css'
+import '@remotarjobs/remotar-uikit/css/elements/buttons.css'
 ```
 
 ### Pure HTML
