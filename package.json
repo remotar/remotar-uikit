@@ -1,5 +1,5 @@
 {
-  "name": "remotar-uikit",
+  "name": "@remotarjobs/remotar-uikit",
   "version": "1.0.0",
   "description": "Pure CSS Remotar UI KIT",
   "homepage": "https://remotar.github.io/ui-kit/",
@@ -10,7 +10,8 @@
   },
   "scripts": {
     "build": "gulp",
-    "dev": "gulp --watch"
+    "dev": "gulp --watch",
+    "publish": "npm publish --access public"
   },
   "keywords": [
     "remotar",
